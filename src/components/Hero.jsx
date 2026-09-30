@@ -43,7 +43,7 @@ export default function Hero() {
         <h1 className="mt-7 font-display text-5xl font-bold leading-[1.02] tracking-tight sm:text-7xl xl:text-8xl">
           <SplitText text="Hi, Saya" delay={0.2} />
           <br />
-          <SplitText text="Zakwan." className="grad" delay={0.45} />
+          <SplitText text="Zakwan." className="grad" delay={0.2} />
         </h1>
         <motion.p
           variants={item}
