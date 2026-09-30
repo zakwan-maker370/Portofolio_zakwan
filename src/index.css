@@ -39,6 +39,7 @@ body::before {
   background: linear-gradient(100deg, #34d399, #22d3ee 55%, #a78bfa);
   -webkit-background-clip: text;
   background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
 }
 .glass {
