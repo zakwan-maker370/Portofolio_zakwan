@@ -1,4 +1,4 @@
-import { ArrowUpRight, CodeXml } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { PROJECTS } from "../data";
 import { Heading, Reveal, Section, Tilt } from "./ui";
 
@@ -56,24 +56,6 @@ export default function Projects() {
                       </li>
                     ))}
                   </ul>
-                  <div className="mt-6 flex gap-3">
-                    <a
-                      href="#"
-                      className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-medium text-black"
-                    >
-                      Live Demo
-                      <ArrowUpRight className="h-4 w-4" aria-hidden />
-                    </a>
-                    <a
-                      href="https://github.com/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="glass inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm"
-                    >
-                      <CodeXml className="h-4 w-4" aria-hidden />
-                      GitHub
-                    </a>
-                  </div>
                 </div>
               </article>
             </Tilt>

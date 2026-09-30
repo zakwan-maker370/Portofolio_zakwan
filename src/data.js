@@ -85,7 +85,7 @@ export const PROJECTS = [
   {
     title: "Digital Library",
     desc: "Sistem perpustakaan digital untuk membantu pengelolaan buku dan pengguna.",
-    tech: ["React", "MySQL", "REST API"],
+    tech: ["React", "MockAPI", "Tailwind CSS"],
     from: "#a78bfa",
     to: "#22d3ee",
     image: digitallibraryImg,
