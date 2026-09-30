@@ -1,0 +1,55 @@
+@import "tailwindcss";
+@theme {
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  background: #05070d;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background: #05070d;
+  color: #e7ecef;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(ellipse at 50% 30%, #000 30%, transparent 75%);
+}
+::selection {
+  background: #34d39955;
+}
+:focus-visible {
+  outline: 2px solid #22d3ee;
+  outline-offset: 3px;
+}
+.grad {
+  background: linear-gradient(100deg, #34d399, #22d3ee 55%, #a78bfa);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.glass {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  transition:
+    border-color 0.3s,
+    box-shadow 0.3s;
+}
+.glass:hover {
+  border-color: rgba(52, 211, 153, 0.45);
+  box-shadow: 0 0 40px -12px rgba(52, 211, 153, 0.5);
+}
