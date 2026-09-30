@@ -21,9 +21,9 @@ import kasirtokoImg from "./assets/kasirtoko.png";
 // Ganti tautan & email berikut dengan milikmu.
 export const EMAIL = "2400016091@webmail.uad.ac.id";
 export const SOCIALS = [
-  { name: "GitHub", href: "https://github.com/" },
+  { name: "GitHub", href: "https://github.com/zakwan-maker370" },
   { name: "LinkedIn", href: "https://www.linkedin.com/" },
-  { name: "Instagram", href: "https://www.instagram.com/" },
+  { name: "Instagram", href: "https://www.instagram.com/zakwnnnnn_" },
 ];
 export const NAV = [
   "Home",
