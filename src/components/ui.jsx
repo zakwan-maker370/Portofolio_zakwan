@@ -54,10 +54,10 @@ export function Heading({ children }) {
 }
 
 // Reveal teks per kata
+// Reveal teks per kata
 export function SplitText({ text, className = "", delay = 0 }) {
   return (
     <motion.span
-      className={className}
       initial="hidden"
       animate="show"
       variants={{
@@ -73,7 +73,7 @@ export function SplitText({ text, className = "", delay = 0 }) {
           aria-hidden
         >
           <motion.span
-            className="inline-block"
+            className={`inline-block ${className}`}
             variants={{
               hidden: { y: "100%" },
               show: {
